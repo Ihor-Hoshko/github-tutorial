@@ -2,30 +2,32 @@
 .hero-list {
     list-style: none;
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../img/Imgmin.jpg);
+    padding-top: 118px;
+    padding-bottom: 118px;
+    // background-image: linear-gradient(
+    //     rgba(47, 48, 58, 0.4),
+    //     rgba(47, 48, 58, 0.4)
+    //   ),
+    //   url(../../img/hero.jpg);
+    background-color: var(--button-hover-color);
     background-size: cover;
     background-position: center;
-    height: 600px;
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 400px;
+    max-width: 480px;
+  margin-right: auto;
+  margin-left: auto;
+    
   }
   .hero-list__title {
     color: var(--button-hover-text-color);
-    font-size: 44px;
+    font-size: 26px;
     font-weight: 900;
     letter-spacing: 0.06em;
     text-align: center;
-    line-height: 1.3;
+    line-height: 1.6;
     margin-bottom: 30px;
     margin-top: 0px;
-    min-width: 696px;
+    min-width: 360px;
   }
   .hero-list__button {
     display: block;

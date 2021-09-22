@@ -134,7 +134,8 @@ img {
 }
 
 .link-logo-header {
-  margin-right: 93px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .footer-logo-studio {
@@ -382,6 +383,7 @@ img {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 60px;
+  text-transform: uppercase;
 }
 
 .address-list__item {
@@ -448,6 +450,12 @@ img {
   align-items: center;
 }
 
+@media screen and (min-width: 480px) {
+  .page-header .contacts-list {
+    display: none;
+  }
+}
+
 .all-nav {
   display: flex;
   align-items: center;
@@ -457,6 +465,12 @@ img {
   display: flex;
   list-style: none;
   padding-left: 0px;
+}
+
+@media screen and (min-width: 480px) {
+  .nav-list {
+    display: none;
+  }
 }
 
 .nav-list__item + .nav-list__item {
@@ -501,27 +515,27 @@ img {
 .hero-list {
   list-style: none;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Imgmin.jpg);
+  padding-top: 118px;
+  padding-bottom: 118px;
+  background-color: var(--button-hover-color);
   background-size: cover;
   background-position: center;
-  height: 600px;
-  max-width: 1600px;
-  margin-left: auto;
+  height: 400px;
+  max-width: 480px;
   margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-list__title {
   color: var(--button-hover-text-color);
-  font-size: 44px;
+  font-size: 26px;
   font-weight: 900;
   letter-spacing: 0.06em;
   text-align: center;
-  line-height: 1.3;
+  line-height: 1.6;
   margin-bottom: 30px;
   margin-top: 0px;
-  min-width: 696px;
+  min-width: 360px;
 }
 
 .hero-list__button {
@@ -757,6 +771,10 @@ img {
   width: 450px;
 }
 
+.advantage-list__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
 .advantage-list__title {
   color: var(--primary-text-color);
   font-weight: 700;
@@ -783,10 +801,8 @@ img {
   align-items: center;
 }
 
-@media screen and (min-width: 480px) {
-  .work {
-    display: none;
-  }
+.work {
+  display: none;
 }
 
 .work {
@@ -895,8 +911,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0px;
-  justify-content: center;
-  margin: -30px;
+  margin-top: -30px;
+  margin-left: -30px;
 }
 
 .client-title {
@@ -908,15 +924,16 @@ img {
 }
 
 .client-list__item {
-  width: 210px;
-  height: 92px;
-  margin: 15px;
+  display: block;
+  flex-basis: calc(100%/2 - 30px);
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
 .client-list__link {
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   align-items: center;

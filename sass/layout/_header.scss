@@ -7,6 +7,11 @@
     display: flex;
     align-items: center;
   }
+  .page-header .contacts-list {
+    @media screen and(min-width: 480px) {
+      display: none;
+    }
+  }
   
   .all-nav {
     display: flex;
@@ -17,6 +22,9 @@
     display: flex;
     list-style: none;
     padding-left: 0px;
+    @media screen and(min-width: 480px) {
+      display: none;
+    }
   }
  .nav-list__item + .nav-list__item {
     margin-left: 50px;
