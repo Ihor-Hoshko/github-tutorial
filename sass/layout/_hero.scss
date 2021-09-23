@@ -4,11 +4,6 @@
     text-align: center;
     padding-top: 118px;
     padding-bottom: 118px;
-    // background-image: linear-gradient(
-    //     rgba(47, 48, 58, 0.4),
-    //     rgba(47, 48, 58, 0.4)
-    //   ),
-    //   url(../../img/hero.jpg);
     background-color: var(--button-hover-color);
     background-size: cover;
     background-position: center;
@@ -16,6 +11,24 @@
     max-width: 480px;
   margin-right: auto;
   margin-left: auto;
+  @media screen and (min-width: 1200px) {
+  background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../img/hero.jpg);
+      height: 600px;
+    max-width: 1600px;
+  }
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../img/hero.jpg);
+      height: 400px;
+    max-width: 768px;
+  }
     
   }
   .hero-list__title {
