@@ -832,7 +832,7 @@ img {
 .icon-container {
   display: flex;
   height: 120px;
-  width: 100%;
+  max-width: 450px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
   justify-content: center;
