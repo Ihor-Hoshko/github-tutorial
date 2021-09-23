@@ -1,79 +1,39 @@
-
-
-        .advantage-list {
-        padding-left: 0px;
-        margin: 0 auto;
-        list-style: none;
-        @media screen and (min-width: 768px) {
-        display: flex;
-        flex-wrap: wrap;
-        margin: -15px;
-    }
-        @media screen and (min-width: 1200px) {
-        
-        display: flex;  
-        }
-        }
-
-        .advantage-list__item {
-          @media screen and (min-width: 480px) {
-          width: 450px;
-          &:not(:last-child) {
-        margin-bottom: 30px;
-          }}
-        @media screen and (min-width: 768px) {
-        width: calc((100% - 2 * 30px) / 2);
-        margin: 15px;
-        }
-       @media screen and (min-width: 1200px) {
-        width: 270px;}
-      }
-      
-      @media screen and (min-width: 1200px) {
-        .advantage-list__item + .advantage-list__item {
-         margin-left: 30px;}}
-  
-
-        .advantage-list__title {
-        color: var(--primary-text-color);
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.1;
-        text-align: center;}
-    
-       .advantage-list__text {
-          color: var(--secondary-text-color);
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 1.7;
-          margin-top: 10px;
-        text-align: center;}
-
-            .icon-container {
-          display: flex;
-          height: 120px;
-          background-color: #f5f4fa;
-          margin-bottom: 30px;
-          justify-content: center;
-          align-items: center;
-          @media screen and (min-width: 1200px) {
-            width: 270px;  
-          }
+.advantage-list {
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+    margin: 0 auto;
   }
-
-
-
-
-
-
-
-
   
-
-  
-
-  
-
+   .advantage-list__item {
+    width: 270px;}
   
   
-
+  .advantage-list__item + .advantage-list__item {
+    margin-left: 30px;}
+  
+  
+  .advantage-list__title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;}
+  
+  
+    .advantage-list__text {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 10px;}
+  
+  .icon-container {
+    display: flex;
+    height: 120px;
+    width: 270px;
+    background-color: #f5f4fa;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+ 
