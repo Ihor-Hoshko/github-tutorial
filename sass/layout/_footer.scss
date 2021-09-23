@@ -6,8 +6,15 @@
 
   .all-footer {
     .container {
-    display: block;
-    align-items: baseline;}
+
+      @media screen and (min-width: 480px) {
+      display: block;
+  }
+    @media screen and (min-width: 1200px) {
+      display: flex;
+    }
+   }
+  
   }
   .all-footer {
     .contacts-list {
@@ -21,13 +28,20 @@
   }
 
   .contacts-footer .contacts-list__item + .contacts-list__item {
+    @media screen and (min-width: 480px) {
     margin-top: 8px;
-    margin-left: 0px;
+    margin-left: 0px;}
+    @media screen and (min-width: 1200px) {
+      margin-top: 9px;
+    }
   }
   
+   
   .left-side .link {
+    @media screen and (min-width: 480px){
     display: flex;
-    justify-content: center;
+    justify-content: center;}
+ 
   }
   
   
