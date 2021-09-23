@@ -801,8 +801,10 @@ img {
   align-items: center;
 }
 
-.work {
-  display: none;
+@media screen and (max-width: 320px) {
+  .work {
+    display: none;
+  }
 }
 
 .work {
