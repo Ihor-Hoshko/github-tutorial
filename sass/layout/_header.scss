@@ -11,6 +11,9 @@
     @media screen and (min-width: 480px) {
       display: none;
     }
+    @media screen and (min-width: 768px) {
+      display: flex;
+    }
   }
   
   .all-nav {
@@ -24,6 +27,9 @@
     padding-left: 0px;
     @media screen and (min-width: 480px) {
       display: none;
+    }
+    @media screen and (min-width: 768px) {
+      display: flex;
     }
   }
  .nav-list__item + .nav-list__item {
